@@ -1,0 +1,35 @@
+{
+  "users" : {
+    "F1RE8A53G3N3RAT3D1D" : {
+      "email" : "user@email.com",
+      "friends" : {
+        "50M3F1RE8A53G3N3RAT3DK3Y" : {
+          "display_name" : "Tom",
+          "profile_pic" : "https://assets3.thrillist.com/v1/image/2767486/size/sk-2017_04_featured_listing_mobile.jpg",
+          "uid" : "50M3F1RE8A53G3N3RAT3DK3Y"
+        }
+      },
+      "info" : {
+        "age" : "0",
+        "course" : "Dev",
+        "job" : "edit",
+        "location" : "edit",
+        "name" : "friendly_commenter",
+        "pic" : "https://image.shutterstock.com/image-vector/man-icon-vector-600w-1040084344.jpg",
+        "school" : "edit",
+        "uid" : ""
+      },
+      "msg" : {
+        "-A6H7J8K9H6G5G7H8J" : {
+          "createAt" : 1,
+          "display_name" : "friendly_commenter",
+          "id" : "F1RE8A53G3N3RAT3D1D",
+          "pic" : "https://image.shutterstock.com/image-vector/man-icon-vector-600w-1040084344.jpg",
+          "text" : "hi"
+        }
+      },
+      "uid" : "F1RE8A53G3N3RAT3D1D",
+      "username" : "friendly_commenter"
+    }
+  }
+}

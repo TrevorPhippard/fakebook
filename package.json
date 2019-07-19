@@ -1,0 +1,64 @@
+{
+  "name": "fakebook",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "@storybook/addon-actions": "5.1.8",
+    "@storybook/addon-events": "5.1.8",
+    "@storybook/addon-info": "5.1.8",
+    "@storybook/addon-knobs": "5.1.8",
+    "@storybook/addon-options": "5.1.8",
+    "@storybook/addon-viewport": "5.1.8",
+    "@storybook/addons": "5.1.8",
+    "@storybook/components": "5.1.8",
+    "@storybook/core-events": "5.1.8",
+    "@storybook/node-logger": "5.1.8",
+    "@storybook/react": "5.1.8",
+    "enzyme": "3.10.0",
+    "enzyme-adapter-react-16": "1.14.0",
+    "enzyme-to-json": "3.3.5"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "firebase": "^6.2.4",
+    "prettier": "^1.18.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.1.0",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1",
+    "recompose": "^0.30.0",
+    "redux": "^4.0.3",
+    "styled-components": "^4.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
+  },
+  "jest": {
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
