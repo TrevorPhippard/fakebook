@@ -8,13 +8,16 @@ import 'firebase/storage';
 class Firebase {
   constructor() {
     const config = {
-      apiKey: '',
-      authDomain: '',
-      databaseURL: '',
-      projectId: '',
-      storageBucket: '',
-      messagingSenderId: '',
-      appId: '',
+      apiKey: process.env.REACT_APP_API_KEY || 'API_KEY',
+      authDomain: process.env.REACT_APP_AUTH_DOMAIN || 'AUTH_DOMAIN',
+      databaseURL: process.env.REACT_APP_DATABASE_URL || 'DB_URL',
+      projectId: process.env.REACT_APP_PROJECT_ID || 'PROJECT_ID',
+      storageBucket:
+        process.env.REACT_APP_STORAGE_BUCKET || 'STORAGE_BUCKET',
+      messagingSenderId:
+        process.env.REACT_APP_MESSAGING_SENDER_ID ||
+        'MESSAGE_SENDER_ID',
+      appId: process.env.REACT_APP_APPID || 'APP_ID',
     };
 
     app.initializeApp(config);
