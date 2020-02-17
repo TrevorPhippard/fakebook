@@ -8,17 +8,15 @@ import 'firebase/storage';
 class Firebase {
   constructor() {
     const config = {
-      apiKey: process.env.REACT_APP_API_KEY || 'API_KEY',
-      authDomain: process.env.REACT_APP_AUTH_DOMAIN || 'AUTH_DOMAIN',
-      databaseURL: process.env.REACT_APP_DATABASE_URL || 'DB_URL',
-      projectId: process.env.REACT_APP_PROJECT_ID || 'PROJECT_ID',
-      storageBucket:
-        process.env.REACT_APP_STORAGE_BUCKET || 'STORAGE_BUCKET',
-      messagingSenderId:
-        process.env.REACT_APP_MESSAGING_SENDER_ID ||
-        'MESSAGE_SENDER_ID',
-      appId: process.env.REACT_APP_APPID || 'APP_ID',
+      apiKey: process.env.REACT_APP_API_KEY || "AIzaSyDTkCPWFTa6ErjixOjCAMxi-Yz_nftNi8A",
+      authDomain: process.env.REACT_APP_AUTH_DOMAIN || "quackbook-f35da.firebaseapp.com",
+      databaseURL: process.env.REACT_APP_DATABASE_URL || "https://quackbook-f35da.firebaseio.com",
+      projectId: process.env.REACT_APP_PROJECT_ID || "quackbook-f35da",
+      storageBucket: process.env.REACT_APP_STORAGE_BUCKET || "quackbook-f35da.appspot.com",
+      messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID || "745508951069",
+      appId: process.env.REACT_APP_APPID || "1:745508951069:web:0a8a9bbb1217fb6b",
     };
+
 
     app.initializeApp(config);
 
